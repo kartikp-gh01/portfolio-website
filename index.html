@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Kartik Parasar is an aspiring software developer building modern web and app experiences with HTML, CSS, JavaScript, C++, Java, Python, and SQL."
+    />
+    <meta
+      name="keywords"
+      content="Kartik Parasar, portfolio, software developer, web developer, frontend developer, Bhopal"
+    />
+    <meta name="author" content="Kartik Parasar" />
+    <meta name="theme-color" content="#07111F" />
+    <title>Kartik Parasar | Portfolio</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="loading-screen" aria-hidden="true">
+      <div class="loader"></div>
+    </div>
+
+    <div class="scroll-progress" aria-hidden="true"></div>
+
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <header class="header">
+      <nav class="navbar container" aria-label="Primary navigation">
+        <a href="#home" class="logo">My Portfolio</a>
+        <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <ul class="nav-menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="theme-btn" id="themeToggle" aria-label="Toggle dark and light mode">
+          <i class="fa-solid fa-moon"></i>
+        </button>
+      </nav>
+    </header>
+
+    <main id="main-content">
+      <section class="hero container" id="home">
+        <div class="hero-left reveal">
+          <span class="hero-tag">👋 Hello, I’m</span>
+          <h1>Kartik <span>Parasar</span></h1>
+          <h3><span id="typing"></span></h3>
+          <p>
+            I’m an aspiring software developer passionate about building modern web and app experiences, solving real-world problems, and constantly improving my craft.
+          </p>
+          <div class="hero-buttons">
+            <a href="Resume.pdf" class="primary-btn" download>Download Resume</a>
+            <a href="#projects" class="secondary-btn">View Projects</a>
+          </div>
+          <div class="social-links" aria-label="Social links">
+            <a href="https://github.com/kartikp-gh01" target="_blank" rel="noreferrer" aria-label="GitHub profile">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/kartik-p07" target="_blank" rel="noreferrer" aria-label="LinkedIn profile">
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="mailto:offclkartikp@gmail.com" aria-label="Email Kartik">
+              <i class="fas fa-envelope"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-right reveal">
+          <div class="code-card">
+            <div class="card-glow"></div>
+            <pre><code>const developer = {
+  name: "Kartik",
+  role: "Aspiring Software Developer",
+  skills: ["HTML", "CSS", "JavaScript", "C++", "Python", "Java"],
+  passion: "Building real-world solutions"
+};</code></pre>
+          </div>
+        </div>
+      </section>
+
+      <section class="stats container reveal">
+        <div class="stat-box">
+          <h3 data-count="5">0</h3>
+          <p>Projects Built</p>
+        </div>
+        <div class="stat-box">
+          <h3 data-count="10">0</h3>
+          <p>Certificates</p>
+        </div>
+        <div class="stat-box">
+          <h3 data-count="5">0</h3>
+          <p>Internships & Leadership</p>
+        </div>
+        <div class="stat-box">
+          <h3 data-count="2">0</h3>
+          <p>Years of Learning</p>
+        </div>
+      </section>
+
+      <section class="about container" id="about">
+        <div class="about-left">
+          <img src="images/profile.jpg" alt="Portrait of Kartik Parasar" loading="lazy" />
+        </div>
+        <div class="about-right reveal">
+          <span class="section-subtitle">About Me</span>
+          <h2>Turning ideas into impactful digital experiences.</h2>
+          <p>
+            I’m <strong>Kartik Parasar</strong>, a second-year Computer Science Engineering student at <strong>Bansal Group of Institutes, Bhopal</strong>. I’m currently pursuing a <strong>B.Tech in Computer Science Engineering</strong> in my <strong>2nd semester</strong> and based in <strong>Bhopal, India</strong>.
+          </p>
+          <p>
+            My journey in software development has focused on web development, app development, and problem-solving through hands-on projects and internships. I enjoy building practical solutions with clean code, modern interfaces, and thoughtful user experiences.
+          </p>
+          <div class="about-grid">
+            <div class="about-box">
+              <i class="fa-solid fa-code"></i>
+              <h3>1+ Year</h3>
+              <p>Learning & building</p>
+            </div>
+            <div class="about-box">
+              <i class="fa-solid fa-laptop-code"></i>
+              <h3>4+</h3>
+              <p>Major projects</p>
+            </div>
+            <div class="about-box">
+              <i class="fa-solid fa-briefcase"></i>
+              <h3>5</h3>
+              <p>Internships & leadership</p>
+            </div>
+            <div class="about-box">
+              <i class="fa-solid fa-award"></i>
+              <h3>10+</h3>
+              <p>Certificates</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="skills container" id="skills">
+        <div class="section-heading reveal">
+          <span class="section-subtitle">My Skills</span>
+          <h2>Core technologies and tools I work with.</h2>
+        </div>
+        <div class="skills-container">
+          <article class="skill-category reveal">
+            <h3><i class="fa-solid fa-code"></i> Programming</h3>
+            <div class="skill-card">C++</div>
+            <div class="skill-card">Java</div>
+            <div class="skill-card">Python</div>
+            <div class="skill-card">JavaScript</div>
+          </article>
+          <article class="skill-category reveal">
+            <h3><i class="fa-solid fa-globe"></i> Web Development</h3>
+            <div class="skill-card">HTML5</div>
+            <div class="skill-card">CSS3</div>
+            <div class="skill-card">Responsive Design</div>
+            <div class="skill-card">Semantic UI</div>
+          </article>
+          <article class="skill-category reveal">
+            <h3><i class="fa-solid fa-database"></i> Data</h3>
+            <div class="skill-card">SQL</div>
+          </article>
+          <article class="skill-category reveal">
+            <h3><i class="fa-solid fa-screwdriver-wrench"></i> Tools</h3>
+            <div class="skill-card">Git</div>
+            <div class="skill-card">GitHub</div>
+            <div class="skill-card">VS Code</div>
+          </article>
+        </div>
+      </section>
+
+      <section class="projects container" id="projects">
+        <div class="section-heading reveal">
+          <span class="section-subtitle">Featured Projects</span>
+          <h2>Selected work that reflects my problem-solving approach.</h2>
+        </div>
+        <div class="projects-container">
+          <article class="project-card featured reveal">
+            <div class="project-top">
+              <span class="featured-badge">⭐ Featured</span>
+              <h3>E-Kisaan</h3>
+              <p>AI-powered farmer-to-consumer marketplace designed to eliminate middlemen and connect farmers directly with buyers.</p>
+            </div>
+            <div class="tech-stack">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>Java</span>
+              <span>Google APIs</span>
+              <span>AI</span>
+            </div>
+            <div class="project-buttons">
+              <a href="https://github.com/kartikp-gh01/E---Kisaan-.git" class="primary-btn" target="_blank" rel="noreferrer">GitHub</a>
+              <a href="#contact" class="secondary-btn">Discuss Idea</a>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-top">
+              <h3>Library Management System</h3>
+              <p>Console-based library management system built with C++, OOP, STL, and file handling.</p>
+            </div>
+            <div class="tech-stack">
+              <span>C++</span>
+              <span>OOP</span>
+              <span>STL</span>
+              <span>File Handling</span>
+            </div>
+            <div class="project-buttons">
+              <a href="https://github.com/kartikp-gh01/library-management-system-cpp.git" class="primary-btn" target="_blank" rel="noreferrer">GitHub</a>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-top">
+              <h3>Shri Chandrika Enterprises</h3>
+              <p>Responsive business website for an agricultural and animal feed enterprise showcasing products and services.</p>
+            </div>
+            <div class="tech-stack">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-top">
+              <h3>Weather Dashboard</h3>
+              <p>Interactive weather dashboard with live forecast visuals and responsive design, currently under development.</p>
+            </div>
+            <div class="tech-stack">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+              <span>API</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="experience container" id="experience">
+        <div class="section-heading reveal">
+          <span class="section-subtitle">Experience</span>
+          <h2>Learning, growing, and contributing through opportunities.</h2>
+        </div>
+        <div class="timeline reveal">
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <h3>Google Student Ambassador</h3>
+              <p class="timeline-date">April 2026</p>
+              <p>Representing student initiatives and contributing to community engagement.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <h3>Alfido Tech</h3>
+              <p class="timeline-date">June 2026</p>
+              <p>C++ Programming Intern focused on strengthening core programming fundamentals.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <h3>Pinnacle Labs</h3>
+              <p class="timeline-date">July 2026</p>
+              <p>Web Development Intern building practical front-end solutions.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <h3>ApexPlanet</h3>
+              <p class="timeline-date">July 2026</p>
+              <p>Web Development Intern and App Development Intern developing cross-platform product ideas.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="certificates container">
+        <div class="section-heading reveal">
+          <span class="section-subtitle">Certificates</span>
+          <h2>Milestones that reflect my growth.</h2>
+        </div>
+        <div class="certificates-grid">
+          <article class="certificate-card reveal">
+            <h3>Google Student Ambassador</h3>
+            <p>Leadership and student community engagement.</p>
+          </article>
+          <article class="certificate-card reveal">
+            <h3>C++ Programming Intern</h3>
+            <p>Alfido Tech • Core programming and problem solving.</p>
+          </article>
+          <article class="certificate-card reveal">
+            <h3>Web Development Intern</h3>
+            <p>Pinnacle Labs • Front-end development fundamentals.</p>
+          </article>
+          <article class="certificate-card reveal">
+            <h3>App Development Intern</h3>
+            <p>ApexPlanet • Product and app development exposure.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="contact container" id="contact">
+        <div class="contact-card reveal">
+          <div class="contact-info">
+            <span class="section-subtitle">Let’s Connect</span>
+            <h2>Have a project in mind? Let’s build something remarkable.</h2>
+            <p>Feel free to reach out for collaborations, internships, freelance work, or just to say hello.</p>
+            <ul class="contact-list">
+              <li><i class="fa-solid fa-envelope"></i> offclkartikp@gmail.com</li>
+              <li><i class="fa-solid fa-phone"></i> +91 8982662120</li>
+              <li><i class="fa-solid fa-location-dot"></i> Bhopal, India</li>
+            </ul>
+          </div>
+          <form id="contactForm" class="contact-form">
+            <label>
+              Name
+              <input type="text" name="name" required />
+            </label>
+            <label>
+              Email
+              <input type="email" name="email" required />
+            </label>
+            <label>
+              Message
+              <textarea name="message" rows="5" required></textarea>
+            </label>
+            <button type="submit" class="primary-btn">Send Message</button>
+            <p id="formStatus" class="form-status" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-content">
+        <p>© 2026 Kartik Parasar. Crafted with passion and purpose.</p>
+        <div class="footer-links">
+          <a href="https://github.com/kartikp-gh01" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com/in/kartik-p07" target="_blank" rel="noreferrer">LinkedIn</a>
+        </div>
+      </div>
+    </footer>
+
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+      <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <div class="blob blob1" aria-hidden="true"></div>
+    <div class="blob blob2" aria-hidden="true"></div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
