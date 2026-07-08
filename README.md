@@ -1,3 +1,5 @@
+<img width="1803" height="837" alt="Screenshot 2026-07-09 004033" src="https://github.com/user-attachments/assets/920c376d-fb19-48c0-8eac-95518400b7b4" />
+
 # 🌐 Kartik Parasar - Personal Portfolio
 
 A modern, responsive, and interactive **Personal Portfolio Website** built using **HTML, CSS, and JavaScript**. This portfolio showcases my skills, projects, internships, certifications, and contact information in a clean and professional interface.
